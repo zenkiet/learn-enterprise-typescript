@@ -9,5 +9,9 @@
     "test": "yarn jest"
   },
   "license": "MIT",
-  "packageManager": "yarn@4.4.0"
+  "packageManager": "yarn@4.4.0",
+  "volta": {
+    "node": "20.16.0",
+    "yarn": "4.4.0"
+  }
 }
