@@ -5,7 +5,7 @@
   "scripts": {
     "build": "yarn tsc",
     "dev": "yarn build --watch --preserveWatchOutput",
-    "lint": "yarn eslint . --ext js,ts",
+    "lint": "yarn eslint",
     "test": "yarn jest"
   },
   "license": "MIT",
@@ -15,6 +15,11 @@
     "yarn": "4.4.0"
   },
   "devDependencies": {
-    "typescript": "^5.5.4"
+    "@eslint/js": "^9.8.0",
+    "@types/eslint": "^9",
+    "eslint": "9.x",
+    "globals": "^15.9.0",
+    "typescript": "^5.5.4",
+    "typescript-eslint": "^8.0.0"
   }
 }
